@@ -11,25 +11,11 @@
     src: url(../fontes/sono/desktop/Sono-Regular.ttf);
 }
 
-@media (max-width: 650px) {
-
-    main {
-        padding: 0px 8px 0px 8px;
-        min-width: 220px;
-    }
-}
-
-@media (min-width: 651px) and (max-width: 1360px) {
-
-    main {
-        margin: 0px 100px;
-    }
-}
-
 body {
     background-color: white;
     max-width: 1360px;
     margin: 0px;
+    padding: 0px;
 }
 
 header {
@@ -37,7 +23,7 @@ header {
     background-image: url(../imagens/pexels-creative-vix-7283.jpg);
     background-position: center center;
     text-align: center;
-    padding: 80px;
+    padding: 8px 0px 8px 0px;
     margin: -8px 0px 0px 0px;
 }
 
@@ -88,8 +74,8 @@ a:hover {
 
 section.introducao {
     background-color: rgb(255, 246, 215);
-    margin: 0px -100px 0px -100px;
-    padding: 10px 100px 10px 100px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 8px 10px 8px;
 }
 
 section.introducao > h1 {
@@ -111,8 +97,8 @@ section.plantando {
     background-color: rgb(59, 59, 59);
     color: white;
     text-shadow: 1px 1px 1px black;
-    margin: 0px -100px 0px -100px;
-    padding: 10px 100px 10px 100px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 8px 10px 8px;
 }
 
 section.plantando > h2 {
@@ -127,8 +113,8 @@ section.plantando > h3 {
 
 section.cuidados {
     background-color: #dbcdcd;
-    margin: 0px -100px 0px -100px;
-    padding: 10px 100px 10px 100px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 8px 10px 8px;
 }
 
 section.cuidados > h1 {
@@ -150,8 +136,8 @@ section.doencas {
     background-position: center center;
     background-attachment: fixed;
     background-color: rgb(59, 59, 59);
-    margin: 0px -100px 0px -100px;
-    padding: 10px 100px 10px 100px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 8px 10px 8px;
     color: white;
     text-shadow: 1px 1px 1px black;
 }
